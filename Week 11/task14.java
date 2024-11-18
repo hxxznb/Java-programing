@@ -8,7 +8,7 @@ public class task14 {
             {9, 10}
         };
 
-        // 打印原始矩阵
+        
         System.out.println("Original matrix:");
         for (int i = 0; i < m.length; i++) {
             for (int j = 0; j < m[i].length; j++) {
@@ -19,7 +19,7 @@ public class task14 {
 
         shuffle(m);
 
-        // 打印打乱后的矩阵
+        
         System.out.println("Shuffled matrix:");
         for (int i = 0; i < m.length; i++) {
             for (int j = 0; j < m[i].length; j++) {
